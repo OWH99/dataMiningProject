@@ -6,4 +6,3 @@ pandas>=0.19
 flasgger==0.9.4
 streamlit
 seaborn == 0.10.1
-python >= 3.7.1
