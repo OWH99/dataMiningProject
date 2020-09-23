@@ -128,7 +128,7 @@ def main():
        	target_variables = st.radio("Target Variable",('spectacles', 'washer_no', 'dryer_no'))
        
        	#common features among 3 classifiers
-       	race = st.radio("Race",('chinese', 'foreigner ', 'indian', 'malay','Unknown'))
+       	race = st.radio("Race",('chinese', 'foreigner', 'indian', 'malay','Unknown'))
        	ageGroup= st.radio("Age Group",('28-34', '35-41', '42-48', '49-55', 'Unknown'))
        	bodySize = st.radio("Body Size",('fat', 'moderate', 'thin','Unknown'))
        	basketSize = st.radio("Basket Size",('big', 'small','Unknown'))
